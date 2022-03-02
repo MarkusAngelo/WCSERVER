@@ -1,0 +1,31 @@
+<!--Laus, Mark Angelo T.    WD-201
+index.html [GET]
+Testing GET Object in Express; html file-->
+
+<html>
+    <head>
+        <link href="/style/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <div class="containter">
+            <form action ="http://127.0.0.1:2001/process_get" method="get">
+                <div class="form-group">
+                    <label>First Name:</label>
+                    <input type="text" class="form-control" name="fname" placeholder="Enter Your First Name" /> <br/>
+                    <label>Last Name:</label>
+                    <input type="text" class="form-control" name="lname" placeholder="Enter Your Last Name" /> <br/>
+                    <label>Course:</label>
+                    <input type="text" class="form-control" name="stud_course" placeholder="Enter Your Course" /> <br/>
+                    <label>Age:</label>
+                    <input type="number" class="form-control" name="age" placeholder="Enter Your Age" /><br/>
+                    <label>Comments/Suggestions:</label>
+                    <textarea name="comments" class="form-control" placeholder="Enter Comments/Suggestion">
+                    </textarea>
+
+                <input type="submit" id="submit" value="Submit"/>
+                </form>                
+            </div>
+        </div>
+    </body>
+</html>
